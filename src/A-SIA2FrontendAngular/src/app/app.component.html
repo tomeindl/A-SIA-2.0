@@ -1,0 +1,7 @@
+<a-sia-menubar></a-sia-menubar>
+<div class="pane-container">
+  <a-sia-simulation-diagram *ngIf="paneService.simulationDiagramIsOpen"></a-sia-simulation-diagram>
+  <a-sia-graph-editor *ngIf="paneService.graphEditorIsOpen"></a-sia-graph-editor>
+  <a-sia-data-panel *ngIf="paneService.dataPanelIsOpen"></a-sia-data-panel>
+</div>
+<a-sia-modal [isOpen]="true" tag="login"> <a-sia-login></a-sia-login> </a-sia-modal>

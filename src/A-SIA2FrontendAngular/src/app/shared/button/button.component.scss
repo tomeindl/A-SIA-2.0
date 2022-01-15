@@ -1,0 +1,19 @@
+@import "../../../assets/colors.scss";
+@import "../../../assets/shadows.scss";
+
+:host {
+  display: block;
+  background-color: $color-1;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.8rem 1.8rem;
+  border-radius: 2px;
+  box-shadow: $shadow-down-hard;
+  color: $bg-primary-200;
+  font-weight: 500;
+  text-align: center;
+}
+
+:host:hover {
+  cursor: pointer;
+}

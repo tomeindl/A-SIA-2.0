@@ -1,0 +1,12 @@
+@import "../../../assets/colors.scss";
+@import "../../../assets/shadows.scss";
+
+:host {
+  display: block;
+  background-color: $bg-primary-800;
+  flex-grow: 1;
+  flex-shrink: 1;
+  box-shadow: $shadow-left-blur;
+  padding: 1rem;
+  z-index: 1;
+}

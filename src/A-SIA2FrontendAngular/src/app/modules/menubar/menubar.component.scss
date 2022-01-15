@@ -1,0 +1,31 @@
+@import "../../../assets/colors.scss";
+@import "../../../assets/shadows.scss";
+@import "../../../assets/measurements.scss";
+
+:host {
+  display: block;
+  width: 100%;
+  height: $height-menubar;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $bg-primary-600;
+  box-shadow: $shadow-down-blur;
+  user-select: none;
+}
+
+.menubar {
+  &__menu-container {
+    display: flex;
+    height: $height-menubar;
+    width: 100%;
+  }
+
+  &__menu-line {
+    height: 0.1rem;
+    width: 90%;
+    margin: 0.3rem auto;
+    background-color: $bg-primary-900;
+  }
+}

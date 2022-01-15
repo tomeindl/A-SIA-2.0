@@ -1,0 +1,10 @@
+@import "../assets/measurements.scss";
+
+.pane-container {
+  padding-top: $height-menubar;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  z-index: 0;
+}

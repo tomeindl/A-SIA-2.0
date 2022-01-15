@@ -1,0 +1,17 @@
+@import "../../../../../assets/colors.scss";
+:host {
+  display: block;
+  white-space: nowrap;
+  padding: 0.6rem;
+  padding-left: 1.5rem;
+  padding-right: 3rem;
+  &:hover {
+    background-color: $bg-primary-200;
+  }
+}
+
+.menubar-entry {
+  &-description {
+    user-select: none;
+  }
+}

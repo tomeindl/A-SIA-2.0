@@ -1,0 +1,21 @@
+@import "../../../assets/colors.scss";
+
+:host {
+  display: block;
+  flex-grow: 1;
+  z-index: 0;
+  position: relative;
+  padding: 1rem;
+  overflow: hidden;
+  flex-shrink: 1;
+}
+
+.graph-editor {
+  background-color: $bg-primary-900;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

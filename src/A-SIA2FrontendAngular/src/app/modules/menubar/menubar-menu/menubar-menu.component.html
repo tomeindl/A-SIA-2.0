@@ -1,0 +1,6 @@
+<div class="menubar-menu__label-container" (mouseenter)="onLabelMouseEnter()" (click)="onLabelClick()">
+  <span class="menubar-menu__label">{{ this.label }}</span>
+</div>
+<div *ngIf="isOpen" class="menubar-menu">
+  <ng-content></ng-content>
+</div>
